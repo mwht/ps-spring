@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>pl.madejspace.matteoart</groupId>
+  <artifactId>matteo-art</artifactId>
+  <version>0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+ 
+  <name>Matteo-art</name>
+  <url>http://matteo-art.cba.pl/</url>
+  <!--
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>spring-web</artifactId>
+        <version>5.0.5.RELEASE</version>
+      </plugin>
+    </plugins>
+  </build>
+	-->
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+		<version>5.0.5.RELEASE</version>
+	</dependency>
+  </dependencies>
+</project>
