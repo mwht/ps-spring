@@ -1,2 +1,5 @@
 # IntelliJ IDEA project directory
 .idea
+
+# Maven target directory
+target
