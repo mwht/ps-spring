@@ -11,7 +11,7 @@ public class MenuEntry {
         name = "";
         price = 0;
         image_url = "";
-        category = new MenuCategory();
+        category = new MenuCategory(0,"");
     }
 
     public MenuEntry(String name, double price, String image_url, MenuCategory category) {
