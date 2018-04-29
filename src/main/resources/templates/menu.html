@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head">
+
+</head>
+<body>
+<div id="container">
+	<header th:replace="fragments/header :: header">
+
+	</header>
+	<div id="content">
+
+		<div class="menu-list">
+			<h4>Nasza oferta</h4>
+			<ul>
+				<li><a href="#dailydish">Danie dnia</a></li>
+				<li><a href="#breakfast">Śniadania</a></li>
+				<li><a href="#lunch">Obiady</a></li>
+				<li><a href="#dessert">Desery</a></li>
+			</ul>
+		</div>
+
+		<div class="menu-list-filler">
+
+		</div>
+
+		<div class="menu-content">
+			<h2 class="center">Menu</h2>
+			<hr />
+			<a id="dailydish"><h4>Danie dnia</h4></a>
+			<div class="menu-content-section">
+				<img class="menu-content-img" src="img/menu/dailydish.jpg" alt="Danie dnia" />
+				<table>
+					<tr><td><strong>Danie:</strong></td><td>Kotlet schabowy z mizerią</td></tr>
+					<tr><td><strong>Cena:</strong></td><td>14,00 zł</td></tr>
+				</table>
+			</div>
+			<hr />
+			<!-- sniadania -->
+			<a id="breakfast"><h4>Śniadania</h4></a>
+			<div class="menu-content-section">
+				<div>
+					<img class="menu-content-img" src="img/menu/jajecznica.jpg" alt="Śniadanie - jajecznica" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Jajecznica</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>7,00 zł</td></tr>
+					</table>
+				</div>
+
+				<div>
+					<img class="menu-content-img" src="img/menu/omlet.jpg" alt="Śniadanie - omlet" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Omlet</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>9,00 zł</td></tr>
+					</table>
+				</div>
+
+				<div>
+					<img class="menu-content-img" src="img/menu/kanapki-z-awokado.jpg" alt="Śniadanie - kanapki-z-awokado" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Kanapki z awokado</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>4,00 zł</td></tr>
+					</table>
+				</div>
+			</div>
+			<hr />
+			<!-- obiady -->
+			<a id="lunch"><h4>Obiady</h4></a>
+			<div class="menu-content-section">
+				<div>
+					<img class="menu-content-img" src="img/menu/pomidorowa.jpg" alt="Obiad - zupa pomidorowa" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Zupa pomidorowa</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>5,50 zł</td></tr>
+					</table>
+				</div>
+
+				<div>
+					<img class="menu-content-img" src="img/menu/bigos.jpg" alt="Obiad - bigos" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Bigos</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>8,50 zł</td></tr>
+					</table>
+				</div>
+			</div>
+			<hr />
+			<!-- desery -->
+			<a id="dessert"><h4>Desery</h4></a>
+			<div class="menu-content-section">
+				<div>
+					<img class="menu-content-img" src="img/menu/sernik.jpg" alt="Deser - sernik" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Sernik na zimno</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>5,50 zł</td></tr>
+					</table>
+				</div>
+
+				<div>
+					<img class="menu-content-img" src="img/menu/tiramisu.jpg" alt="Deser - tiramisu" />
+					<table>
+						<tr><td><strong>Danie:</strong></td><td>Tiramisu</td></tr>
+						<tr><td><strong>Cena:</strong></td><td>6,70 zł</td></tr>
+					</table>
+				</div>
+			</div>
+			<hr />
+		</div>
+
+	</div>
+	<footer th:replace="fragments/footer :: footer">
+
+	</footer>
+</div>
+</body>
+</html>
+</html>
