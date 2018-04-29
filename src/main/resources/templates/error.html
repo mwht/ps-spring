@@ -11,7 +11,9 @@
     <div id="content">
         <h2>Wystąpił błąd:</h2>
         <hr />
-        <strong th:text="${status} + ' ' + ${type}" />
+        <strong th:text="${status} + ' ' + ${message}" />
+        <br />
+        <strong></strong>
     </div>
     <footer th:replace="fragments/footer :: footer">
 
