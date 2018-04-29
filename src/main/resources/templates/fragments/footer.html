@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="restauracja, po, studencku, łódź, tanio, jedzenie, studenci" />
+    <meta name="Description" content="U nas zjesz tanio - zapraszamy!" />
+    <meta name="Author" content="Sebastian Madejski (209388)" />
+    <title>Restauracja "Po Studencku"</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <link href="img/favicon.png" rel="icon" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <footer th:fragment="footer">
+        <div class="column">
+            <p><strong>Restauracja "Po Studencku"</strong></p>
+            <p>
+                90-040 Łódź<br />
+                ul. Dobra 12/3<br />
+            </p>
+            <p>
+                tel.: 42 631 23 45<br />
+                e-mail: <a href="mailto:po.studencku@gmail.com">po.studencku@gmail.com</a>
+            </p>
+        </div>
+        <div class="column">
+            <p><strong>Godziny otwarcia:</strong></p>
+            <table>
+                <tr><td>pon - czw:</td><td>10 - 17</td></tr>
+                <tr><td>pt - sob:</td><td>11 - 20</td></tr>
+                <tr><td>nd:</td><td>14 - 19</td></tr>
+            </table>
+        </div>
+        <div class="social-logos">
+            <span class="social-logo-img"><a href="#"><img src="img/insta.png" alt="Instagram" /></a></span> <!-- instagram -->
+            <span class="social-logo-img"><a href="#"><img src="img/twitter.png" alt="Twitter" /></a></span> <!-- twitter -->
+            <span class="social-logo-img"><a href="#"><img src="img/fb.png" alt="Facebook" /></a></span> <!-- facebook -->
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head">
+
+</head>
+<body>
+<div id="container">
+    <header th:replace="fragments/header :: header">
+
+    </header>
+    <div id="content">
+        <h2>Wystąpił błąd:</h2>
+        <hr />
+        <strong th:text="${status} + ' ' + ${type}" />
+    </div>
+    <footer th:replace="fragments/footer :: footer">
+
+    </footer>
+</div>
+</body>
+</html>
