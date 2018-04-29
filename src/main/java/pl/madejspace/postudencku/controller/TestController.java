@@ -1,4 +1,4 @@
-package pl.madejspace.matteoart.controller;
+package pl.madejspace.postudencku.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

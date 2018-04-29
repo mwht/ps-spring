@@ -1,4 +1,4 @@
-package pl.madejspace.matteoart;
+package pl.madejspace.postudencku;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
