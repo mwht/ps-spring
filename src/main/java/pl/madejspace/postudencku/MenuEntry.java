@@ -14,7 +14,8 @@ public class MenuEntry {
         category = new MenuCategory(0,"");
     }
 
-    public MenuEntry(String name, double price, String image_url, MenuCategory category) {
+    public MenuEntry(long id, String name, double price, String image_url, MenuCategory category) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.image_url = image_url;
