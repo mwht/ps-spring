@@ -28,10 +28,10 @@
 			<h2 class="center">Menu</h2>
 			<hr />
 			<a id="dailydish"><h4>Danie dnia</h4></a>
-			<div class="menu-content-section">
+			<div th:object="${entry}" class="menu-content-section">
 				<img class="menu-content-img" src="img/menu/dailydish.jpg" alt="Danie dnia" />
 				<table>
-					<tr><td><strong>Danie:</strong></td><td>Kotlet schabowy z mizerią</td></tr>
+					<tr><td><strong>Danie:</strong></td><td th:text="*{name}"/></tr>
 					<tr><td><strong>Cena:</strong></td><td>14,00 zł</td></tr>
 				</table>
 			</div>
